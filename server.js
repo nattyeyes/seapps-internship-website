@@ -9,6 +9,7 @@ const dbConfig = require('./app/config/db.config');
 const Role = db.role;
 
 // hello world
+// hello philippines
 db.mongoose
     .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
         useNewUrlParser: true,
